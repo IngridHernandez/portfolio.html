@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Space Salon</title>
+    <link rel="stylesheet" href="https://use.typekit.net/jey3unr.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+ /* Universal code */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Navigation */
+
+.navbar {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;   
+    text-align: center;
+    max-width: 960px;
+    margin: auto;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: "trajan-pro-3", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  li {
+    display: inline;
+  }
+  /* Hero image */
+  .hero {
+    background-image: url('heroImage2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+  }
+  
+  /* About page */
+  .about {
+    padding: 50px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* fonts*/
+  h1, h2, h3 {
+    color: #919496;
+ text-align: center;
+ font-family: "trajan-pro-3", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+body {
+font-family: "trajan-pro-3", serif;
+font-weight: 400;
+font-style: normal;
+max-width: 960px;
+margin: auto;
+}
+
+  /* Image gallery */
+  .largeImage {
+      width: 100%;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+  }
+  
+  .gallery img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .round {
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius:8px;
+      clip-path: polygon(25% 20%, 78% 20%, 100% 50%, 76% 86%, 23% 86%, 0% 50%);
+  }
+  
+  .ImageSection {
+      background-color: #000;
+  }
+  /* Footer */
+  .footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  @media screen and (max-width:600px) {
+    .hero {
+      max-width: 100%;
+    }
+   .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+    </style>
+</head>
+<div>
+<nav class="navbar">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Gallery</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+</div>
+
+<body>
+   <!-- Rest of your HTML content goes here -->
+      <div class="hero"></div>
+
+      <div>
+          <h1 class="about">About Open Space Salon!</h1>
+          <h2 class="about">Welcome!
+              <p class="about">Thank you for taking a look. Open Space Salon is a private studio setting that catters<br> to self employed beauty professionals. Have a look around and we hope to see you at the salon. </p>
+          </h2>
+      </div>
+
+      <div>
+          <img class="largeImage" src="multiImage.png" alt="">
+      </div>
+    <section>
+      <h1>Sneek peek of salon!</h1>
+
+      <div class="gallery">
+          <div class="gallery">
+              <img  class="gallery" src="OpenSpace1.jpg" alt="salon">
+          </div>
+          <div class="gallery">
+            <img class="gallery"  src="OpenSpace2.jpg" alt="salon">
+          </div>
+          <div class="gallery">
+            <img class="gallery"  src="OpenSpace3.jpg" alt="salon">
+      </div>
+    </section>
+
+<section class="ImageSection">
+    <h2>Customers</h2>
+    <img  class="round" src="customer.png" alt="img">
+<br>
+    <h2>Beauty professionals</h2>
+    <img class="round" src="stylist.png" alt="img">
+
+</section>     
+    <footer class="footer">
+      <hr>
+        <p class="footer">@copyright 2023</p>
+    </footer>
+</body>
+</html>

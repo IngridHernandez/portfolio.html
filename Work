@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+
+
+<style>
+    body {
+        margin-top: 0;
+        padding-top: 0;
+        max-width: 100%;
+       overflow-y: scroll;
+    }
+
+    /*mobile first naviation */
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    section, main {
+        flex: 1;
+        min-width: 300px;
+        margin-top: 20px;
+    }
+
+    .section1 { 
+         background-color: #A38F77;
+         max-width: 100%;
+     }
+   h1 {
+     color: white;
+   font-family: "WindSong", cursive;
+   font-weight: 500;
+   font-style: normal;
+   text-align: center;
+   font-size: 26px;
+   padding-top: 50px;
+}
+  h2{
+     color: white;
+   font-family: "WindSong", cursive;
+   font-weight: 500;
+   font-style: normal;
+   text-align: center;
+   font-size: 22px;
+}
+  .name {
+       max-width: 100%;
+   }
+ nav {
+      background-color: #A38F77;
+      padding: 10px 0;
+       font-family: "Lato", sans-serif;
+       font-weight: 100;
+       font-style: normal;
+  }
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+  }
+  nav ul li {
+      margin: 0 15px;
+  }
+  nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 16 px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+  }
+
+  nav ul li a:hover {
+      background-color: #555;
+  }
+ 
+   
+   section {
+       text-align: center;
+       max-width: 100%;
+       height: 200px;
+     }
+  h4 {
+      text-align: left;
+      margin: 20px;
+      font-family: "WindSong", cursive;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 24px;
+  }
+ .lato-regular  {
+       margin: 20px;
+       font-family: "Lato", sans-serif;
+       font-weight: 300;
+       font-style: normal;
+  }
+ img {
+    height: auto;
+    max-width: 100%;
+    opacity: 25%;
+  }
+  main {
+      display: flex;
+      flex-direction: column;
+     justify-content: space-around;
+  }
+
+
+    @media only screen and (min-width: 600px) {
+     p {
+          display: flex;
+          text-align: left;
+      }
+       img {
+    height: auto;
+    max-width: 25%;
+    opacity: 25%;
+  }
+  ul li {
+       margin: 20px;
+       font-family: "Lato", sans-serif;
+       font-weight: 300;
+       font-style: normal;
+  }
+   
+ }
+</style>
+
+</head>
+
+<body>
+    
+
+ <section class="section1">
+      <div class="name">
+          <h1 class="babylonica-regular">Ingrid Hernandez</h1>
+          <h2 class="babylonica-regular">Portfolio</h2>
+     </div>
+
+  <div>
+    <nav  class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="brandboard">Brand Boards</a></li>
+          <li><a href="logo.html">Logo's</a></li>
+       </ul>
+    </nav>
+  </div>
+ </section>
+ 
+ <div class="container">
+<main>
+   <section>
+      <div>
+          <h4>About</h4>
+          <p class="lato-regular">
+            My passion lies in crafting unique personal projects that blend web design, graphic assets, and branding in innovative ways.
+            I am open to work for individuals branding your personal brand or corporate projects from inception to completion.
+            As a creative individual, I thrive on the challenges of problem-solving and am committed to a journey of continuous learning and skill improvement. 
+            </p>
+            <p class="lato-regular">
+               I will be posting something as soon as I finish the project.
+            As I work on this site and other projects, I am excited to keep you updated on my progress. Your involvement and interest are important to me.
+            Come back periodically to see what is going on.  
+            </p>
+           
+      </div>
+    </section>
+   
+    <div>
+        <img src="images/treeBranch3.png" alt="Tree Branch">
+    </div>
+    <div>
+        <h4>Services offered</h4>
+       <ul class="lato-regular">
+          <li>UI/UX</li>
+          <li>Brand packages</li>
+           <li><a href="logo.html">Logo's</a></li>
+          <li>Websites</li>
+          <li>Illustration</li>
+       </ul>
+       <h4>Software Knowledge</h4>
+       <ul class="lato-regular">
+           <li>Visual studio code</li>
+           <li>Html</li>
+           <li>Css</li>
+           <li>Figma</li>
+           <li>Photoshop</li>
+           <li>illustrator</li>
+           <li>Indesign</li>
+           <li><a href="https://ingridhernandez.github.io/">Github</a></li>
+           <li>Bootstrap</li>
+        </ul>
+         <h4>Learning other languages</h4>
+       <ul class="lato-regular">
+           <li>Learning Javascript</li>
+           <li>Learning Php</li>
+           <li>Learning My sql</li>
+      </ul>
+       <h4>Education</h4>
+       <ul class="lato-regular">
+           <li>Certificates from San Diego Continuing education for front end web development</li>
+           <li>Attending San Diego City College working on an Asscociate of Graphic and Interaction Design.</li>
+       </ul>
+        <h4>Course work completed</h4>
+       <ul class="lato-regular">
+           <li>Basic Graphic Design</li>
+           <li>Typography</li>
+           <li>Advanced Typography</li>
+           <li>Graphic Design history</li>
+           <li>Digital Media</li>
+           <li>Page Layout</li>
+           <li>Interaction Design 1</li>
+           <li>Branding & Packaging</li>
+       </ul>
+        <h4>Currently Studying</h4>
+       <ul class="lato-regular">
+           <li>Interaction 2</li>
+           <li>General Ed for the associates degree</li>
+       </ul>
+    </div>
+   </main>
+  </div>
+ </body>
+</html>
